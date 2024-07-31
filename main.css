@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #52F0FA;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    display: inline;
+    padding: 8px;
+    margin: 38px;
+    background-color: #dddddd;
+}
+
+a.button {
+    color: #ed0303;
+    text-decoration: none;
+    display: inline;
+    padding: 8px;
+    margin: 38px;
+    background-color: #d8f004;
+    width: 15%;
+    height: 15%;
+    outline: auto;
+
+}
+
+.edit-delete {
+    color: #f8f4f4;
+    text-decoration: none;
+    display: inline;
+    padding: 8px;
+    margin: 38px;
+    background-color: #0751a1;
+    width: 15%;
+    height: 15%;
+
+
+}
+.delete-button {
+    color: #f6f4f4;
+    text-decoration: none;
+    display: inline;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 38px;
+    background-color: #a12307;
+    width: 15%;
+    height: 15%;
+
+
+}
+a.admin-button {
+    color: #f6f4f4;
+    text-decoration: none;
+    display: inline;
+    padding: 50px;
+    margin: 15px;
+    margin: 38px;
+    background-color: #07be85;
+    width: 15%;
+    height: 15%;
+}
+
+a.home-button {
+    color: #ed0303;
+    text-decoration: none;
+    display: inline;
+    padding: 50px;
+    margin: 15px;
+    background-color: #d8f004;
+    width: 15%;
+    height: 15%;
+    outline: auto;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+article.instructions {
+    background-color: rgba(195, 32, 195, 0.347);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+article.new_book {
+    background-color: rgba(195, 32, 195, 0.347);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.book-submission {
+    background-color: rgba(32, 195, 103, 0.602);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+/* Header */
+header {
+    background: #4eafdf;
+    color: #000000;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #52F0FA 3px solid;
+}
+
+header a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+}
+
+header .highlight, header .current a {
+    color: #e9ff70;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #7e930a;
+}
+
+/* Forms */
+form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #4CAF50;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #3e8e41;
+}
+
+/* Instructions */
+.instructions {
+    background: #e2e2e2;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: #4CAF50 5px solid;
+}
+
+.instructions h2 {
+    margin-top: 0;
+}
+
+/* Admin Section */
+.admin-instructions {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: #e67e22 5px solid;
+}
+
+.admin-instructions h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
